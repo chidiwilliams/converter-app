@@ -1,0 +1,21 @@
+{
+	"Volume": {
+		"Barrels (Oil)": ["bbls", "Barrels (Oil)", 6.28981077043210512809, 0],
+		"Cubic centimeters": ["cm3", "Cubic centimeters", 1000000, 2],
+		"Cubic inches": ["tbsp.", "Cubic inches", 61023.74, 0],
+		"Cubic meters": ["m3", "Cubic meters", 1, 1],
+		"Cups (US)": ["tbsp.", "Cups (US)", 4226.753, 0],
+		"Fluid ounces (US)": ["tbsp.", "Fluid ounces (US)", 33814.02, 0],
+		"Gallons (US)": ["tbsp.", "Gallons (US)", 264.1721, 0],
+		"Liters": ["l", "Liters", 1000, 0],
+		"Milliliters": ["ml", "Milliliters", 1000000, 0],
+		"Pints (US)": ["tbsp.", "Pints (US)", 2113.376, 0],
+		"Quarts (US)": ["tbsp.", "Quarts (US)", 1056.688, 0],
+		"Tablespoons (US)": ["tbsp.", "Tablespoons (US)", 67628.04, 0],
+		"Teaspoons (US)": ["tsp.", "Teaspoons (US)", 202884.1, 0]
+	},
+	"Area": {
+		"Square centimeters": ["cm2", "Square centimeters", 10000, 2],
+		"Square meters": ["m2", "Square meters", 1, 1]
+	}
+}

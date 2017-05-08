@@ -1,0 +1,218 @@
+* {
+	box-sizing: border-box;
+}
+
+@font-face{
+	font-family:"Ionicons";
+	src:url("../fonts/ionicons.ttf?v=2.0.0") format("truetype");
+	font-weight:normal;
+	font-style:normal;
+}
+
+.ion {
+	display: inline-block;
+    font-family: "Ionicons";
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-rendering: auto;
+    line-height: 1;
+    	-webkit-font-smoothing: antialiased;
+       -moz-osx-font-smoothing: grayscale;
+}
+
+.ion-drag:before {
+    content: "\f130";
+}
+
+.ion-ios-arrow-down:before {
+	content:"\f3d0";
+}
+
+body {
+	background-color: rgba(0,0,0,0.05);
+	overflow: hidden;
+	font-family: "Segoe UI", "Open Sans", "Source Sans Pro", sans-serif;
+    cursor: default;
+	-webkit-app-region: drag;
+	color: rgba(0,0,0,1);
+	margin: 0;
+
+
+	-webkit-user-select: none;
+	   -moz-user-select: none;
+	    -ms-user-select: none;
+	     -o-user-select: none;
+	        user-select: none;
+}
+
+.pull-left {
+	float: left;
+}
+
+.clearfix {
+	clear: both;
+}
+
+.conv-category {
+	text-transform: uppercase;
+	padding: 8px 12px;
+}
+
+.topbar {
+    padding: 8px 12px;
+    font-size: 12px;
+}
+
+.header {
+	font-size: 17px;
+	font-weight: bolder !important;
+	margin-bottom: 4px;
+}
+
+.menu-trigger {
+	padding: 12px;
+	transition: background-color 0.5s ease;
+}
+
+.menu-trigger:hover {
+	background-color: rgba(0,0,0,0.05);
+}
+
+.conversions {
+	padding: 10px 12px;
+}
+
+.conv {
+	margin-bottom: 20px;
+}
+
+.conversions .conv-label {
+	color: rgba(41,82,204,1);
+	font-weight: 600;
+	font-size: 15px;
+	margin-bottom: 5px;
+}
+
+.conversions .conv-label:hover {
+	color: rgba(0,0,0,0.9);
+}
+
+.conversions .conv-label:active {
+	color: rgba(0,0,0,.7);
+}
+
+.conversions .conv-label span {
+	margin-right: 7.5px;
+}
+
+.conv > .value {
+	font-size: 23.5px;
+	width: 100%;
+	background: 0;
+	outline: none;
+	border: 0;
+	font-weight: lighter;
+}
+
+.entry {
+	padding: 0 12px;
+	background-color: rgba(0,0,0,0.05);
+}
+
+.inputNumber {
+	width: 33.3333333%;
+	float: left;
+	text-align: center;
+	height: 42.5px;
+	padding: 6px 0;
+	border: 0;
+	outline: none;
+	font-size: 20px;
+}
+
+.inputNumber:hover {
+	background-color: rgb(205,205,205);
+}
+
+.inputNumber:active, .inputNumber.clicked {
+	background-color: rgb(160,160,160);
+	font-size: 19px;
+	padding: 7px 0;
+}
+
+.inputNumber.function {
+	font-size: 16px;
+	padding: 10px 0;
+}
+
+.offset-33 {
+	margin-left: 33.33333333%;
+}
+
+.entry, .menu-trigger, .conversions, .header {
+	-webkit-app-region: no-drag;
+}
+
+.header, .conv-input > .value, .alts .value, .entry {
+	font-weight: 500;
+}
+
+.alts {
+	height: 37px;
+	overflow: hidden;
+	margin-bottom: 1.5px;
+}
+
+.alts .alt-label {
+	font-size: 12.5px;
+}
+
+.alts .value {
+	margin-right: 5px;
+}
+
+.alt1, .alt2, .alt3 {
+	float: left;
+	margin-right: 15px;
+	font-size: 16px;
+}
+
+.unit1-select, .unit2-select {
+	width: 276px;
+	position: absolute;
+	margin: 32px 12px 8px 12px;
+	left: 0;
+	top: 0;
+	background-color: rgb(225,225,225);
+	z-index: 999;
+	display: none;
+	max-height: 400px;
+	overflow-y: scroll;
+}
+
+.unit1-select .option, .unit2-select .option {
+	height: 40px;
+	padding: 8px 10px 10px 10px;
+}
+
+.unit1-select .option:hover, .unit2-select .option:hover {
+	background-color: rgb(205,205,205);
+}
+
+.unit1-select .option:active, .unit2-select .option:active {
+	background-color: rgb(190,190,190);
+}
+
+.unit1-select .option.selected, .unit2-select .option.selected {
+	background-color: rgb(112, 143, 236);
+}
+
+.unit1-select .option.selected:hover, .unit2-select .option.selected:hover {
+	background-color: rgb(97, 124, 206);
+}
+
+.unit1-select .option.selected:active, .unit2-select .option.selected:active {
+	background-color: rgb(90, 114, 186);
+}

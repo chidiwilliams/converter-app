@@ -57,7 +57,7 @@ body {
 
 .conv-category {
 	text-transform: uppercase;
-	padding: 8px 12px;
+	padding: 11px 12px;
 }
 
 .topbar {
@@ -72,12 +72,13 @@ body {
 }
 
 .menu-trigger {
-	padding: 12px;
+	padding: 13px;
 	transition: background-color 0.5s ease;
+	font-size: 22px;
 }
 
 .menu-trigger:hover {
-	background-color: rgba(0,0,0,0.05);
+	background-color: rgba(0,0,0,0.1);
 }
 
 .conversions {
@@ -85,7 +86,7 @@ body {
 }
 
 .conv {
-	margin-bottom: 20px;
+	margin-bottom: 16.5px;
 }
 
 .conversions .conv-label {
@@ -145,6 +146,7 @@ body {
 .inputNumber.function {
 	font-size: 16px;
 	padding: 10px 0;
+	font-weight: 400;
 }
 
 .offset-33 {
@@ -188,16 +190,16 @@ body {
 	background-color: rgb(225,225,225);
 	z-index: 999;
 	display: none;
-	max-height: 400px;
+	max-height: 450px;
 	overflow-y: scroll;
 }
 
 .unit1-select .option, .unit2-select .option {
-	height: 40px;
-	padding: 8px 10px 10px 10px;
+	height: 45px;
+	padding: 11px 10px 10px 10px;
 }
 
-.unit1-select .option:hover, .unit2-select .option:hover {
+.unit1-select .option:hover, .unit2-select .option:hover, .type-select .option:hover {
 	background-color: rgb(205,205,205);
 }
 
@@ -215,4 +217,35 @@ body {
 
 .unit1-select .option.selected:active, .unit2-select .option.selected:active {
 	background-color: rgb(90, 114, 186);
+}
+
+.type-select {
+	position: absolute;
+	top: 32px;
+	background-color: rgb(225,225,225);
+	z-index: 9999;
+	left: 0;
+	width: 250px;
+	transition: left 0.1s ease; 
+	max-height: 450px;
+	overflow-y: scroll;
+}
+
+.type-select.closed {
+	left: -250px;
+}
+
+.type-select .options {
+	padding-top: 4px;
+	width: 100%;
+}
+
+.type-select .option {
+	height: 45px;
+	padding: 11px 10px 10px 60px;
+}
+
+.option-header {
+	font-weight: 700;
+	padding: 13px 0 0 12px;
 }

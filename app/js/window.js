@@ -132,7 +132,7 @@ $(document).ready(function($) {
 	var switched = false;
 	var conversions = {
 		"Volume": {
-			"Barrels (Oil)": ["bbls", "Barrels (Oil)", 6.28981077043210512809, 0],
+			"Barrels (Oil)": ["bbls", "Barrels (Oil)", 6.28981077, 0],
 			"Cubic centimeters": ["cm3", "Cubic centimeters", 1000000, 2],
 			"Cubic inches": ["tbsp.", "Cubic inches", 61023.74, 0],
 			"Cubic meters": ["m3", "Cubic meters", 1, 1],

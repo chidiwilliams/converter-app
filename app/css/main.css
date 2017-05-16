@@ -215,7 +215,7 @@ body {
     left: 0;
 
     display: none;
-    overflow-y: scroll;
+    overflow-y: auto;
 
     width: 276px;
     max-height: 450px;

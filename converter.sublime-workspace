@@ -351,7 +351,7 @@
 			"file": "app/js/window.js",
 			"settings":
 			{
-				"buffer_size": 10164,
+				"buffer_size": 11651,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -360,7 +360,7 @@
 			"file": "app/index.html",
 			"settings":
 			{
-				"buffer_size": 3241,
+				"buffer_size": 3294,
 				"encoding": "UTF-8",
 				"line_ending": "Windows"
 			}
@@ -474,9 +474,7 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/User/Documents/Projects/Electron/converter-app",
-		"/C/Users/User/Documents/Projects/Electron/converter-app/app",
-		"/C/Users/User/Documents/Projects/Electron/converter-app/app/css"
+		"/C/Users/HP/Documents/GitHub/converter-app"
 	],
 	"file_history":
 	[
@@ -611,7 +609,7 @@
 	],
 	"find":
 	{
-		"height": 34.0
+		"height": 23.0
 	},
 	"find_in_files":
 	{
@@ -781,15 +779,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 10164,
+						"buffer_size": 11651,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6946,
-								6946
+								0,
+								0
 							]
 						],
 						"settings":
@@ -810,15 +808,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3241,
+						"buffer_size": 3294,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								524,
-								524
+								0,
+								0
 							]
 						],
 						"settings":
@@ -839,7 +837,7 @@
 	],
 	"incremental_find":
 	{
-		"height": 22.0
+		"height": 23.0
 	},
 	"input":
 	{
@@ -880,7 +878,7 @@
 	"project": "converter.sublime-project",
 	"replace":
 	{
-		"height": 40.0
+		"height": 42.0
 	},
 	"save_all_on_build": true,
 	"select_file":
